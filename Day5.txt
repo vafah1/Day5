@@ -1,0 +1,71 @@
+
+Vafa Husain
+
+
+1) public Car()
+   Car porsche = new Car();
+
+2) public Bean(int weight)
+   Bean green = new Bean(5);
+
+3) public Airplane(long maxDistance)
+   Airplane 757 = new Airplane(10,758,000);
+
+4) public Bus(int seats)
+   Bus greyhound = new Bus(22);
+
+5) public SkiLift(int chairs, float maxSpeed, float maxCapacity)
+   Skilift alpha = new SkiLift(5, 10.5f, 255.68f);
+
+6) public Gondola(int maxOccupancy)
+   Gondola venice = new Gondola(6);
+
+7) public Data(String[] args)
+   Data d = new Data(new String[] {"vafa", "Joe", "Bill"});
+
+8) public CelestialObject(Double distanceFromSol)
+   CelestialObject earthWindFire = new CelestialObject(12689.5869d);
+
+9) public Sun(Double maxSurfaceTemperature)
+   Sun s = new Sun(9688.589d);
+
+10) public Pluto(boolean isPlanetOrNot)
+    Pluto p = new Pluto(yes);
+
+
+
+--------------------------------------------------------
+
+For each instantiation presented, provided the required constructor declaration.
+
+
+
+1) 	new Car()
+	public Car()
+
+2) 	new Car("Red", 4)
+	public Car(string color, int seats)
+
+3) 	new Bus(32)
+	public Bus(int seats)
+
+4) 	new HotDog("Ketchup", "Mustard")	
+	public Hotdog(string condiment1, string condiment2)
+ 
+5) 	new Aroma("Bad")
+	public Aroma(String goodOrBad)
+
+6) 	new Behavior(true)
+	public Behavior(boolean isNewOrNot)
+
+7)	new Assignment(false)
+	public Assignment(boolean isHard)
+
+8) 	new AstronomicalDistance(10, 20)
+	public Astronomical(Double distanceFromSol)
+
+9) 	new DateTime(2016, 07, 22)
+	public DateTime(int year, int month, int day)
+
+10) 	new Assignment("You are done! Go Home!")
+    	public Assignment(String done)
